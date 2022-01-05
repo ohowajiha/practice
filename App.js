@@ -17,7 +17,7 @@ const App = () => {
       (parseFloat(weight) * 10000) / (parseFloat(height) * parseFloat(height));
     result.toFixed(2);
     setBmiResult(result);
-    if (result < 18.5) {
+    if (BmiResult < 18.5) {
       setBmiResult('Underweight');
     } else if (BmiResult >= 18.5 && BmiResult < 25) {
       setBmiResult('Normal weight');
